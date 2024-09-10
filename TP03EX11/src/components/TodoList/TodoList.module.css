@@ -1,0 +1,158 @@
+*{
+    font-family: sans-serif;
+}
+.ItemContainer
+{
+    width: 100%;
+}
+
+.Container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 10px; 
+}
+
+.Todoitem
+{
+     background: linear-gradient(-75deg, #0170b1,#072eb1);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    
+    height: fit-content;
+}
+
+.Title
+{
+font-size: 24px;
+color:#ffffffa9
+}
+
+.ContainerDescription
+{
+    display:flex;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+ 
+}
+
+.Description
+{
+    width: 100%;
+    height: fit-content;
+    color: #c8e6ff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.IsDoneContainer
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+.IsDone
+{
+ color: greenyellow;
+}
+.SaveButton,
+.IsntDone
+{
+    color: #ffffff;
+    background:#2e9b03cb;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    display:flex;
+    align-items:center;
+    gap:5px
+}
+
+.ImgbutonIcon
+{
+    width: 25px;
+   filter: saturate(50);
+}
+.ImgVerified
+{
+    width: 40px;
+}
+.ItemContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.DeleteTask
+{
+    height: 50px;
+    display: flex;
+    height: 50px;
+    align-items:center;
+
+}
+.DeleteTask button
+{
+    color: #6d0202;
+        background: #d3f0c8cb;
+        width: 100px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border-radius: 15px;
+        font-weight: 700;
+}
+
+.DeleteTaskIcon
+{
+    width: 25px;
+    fill: red;
+}
+.EditTaskIcon
+{
+     width: 25px;
+     fill:#f7d29b;
+}
+
+.EditButton
+{
+    color: #ffffff;
+    background: #f56f31;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 15px;
+    font-weight: 700;
+    margin:10px auto;
+}
+
+.EditInput
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    outline: #010135 2px groove;
+    border: groove 2px #053f61;
+    margin: 10px auto;
+}
+
+.SaveButtonIcon
+{
+    width: 25px;
+    fill: #15ff00;
+}

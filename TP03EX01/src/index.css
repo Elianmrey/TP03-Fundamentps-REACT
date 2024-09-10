@@ -1,0 +1,11 @@
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 10px;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}

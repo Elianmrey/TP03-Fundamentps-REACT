@@ -1,0 +1,58 @@
+.SuperContainer {
+  display: flex;
+  gap: 10px;
+ }
+
+.FormContainer {
+  background-color: #8c00ff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 10px 1px #010135;
+  border-radius: 20px;
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+  margin: 10px auto;
+  align-items:center;
+}
+
+.FormItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.FormItem input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  outline: #010135 2px groove;
+  border: groove 2px #053f61;
+}
+
+.FormItem input::placeholder {
+  color: #8c00ff;
+  padding: 20px;
+}
+
+.InputItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  justify-content:center;
+  align-items:center;
+}
+
+.FormItem button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  outline: #010135 2px groove;
+  border: groove 2px #053f61;
+}

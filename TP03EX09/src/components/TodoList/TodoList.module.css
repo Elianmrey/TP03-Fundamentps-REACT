@@ -1,0 +1,78 @@
+*{
+    font-family: sans-serif;
+}
+
+.Container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-top: 10px; 
+}
+
+.Todoitem
+{
+     background: linear-gradient(-75deg, #0170b1,#072eb1);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    
+    height: fit-content;
+}
+
+.Title
+{
+font-size: 24px;
+color:#ffffffa9
+}
+
+.ContainerDescription
+{
+    display:flex;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+ 
+}
+
+.Description
+{
+    width: 100%;
+    height: fit-content;
+    color: #c8e6ff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.IsDoneContainer
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+.IsDone
+{
+ color: greenyellow;
+}
+
+.IsntDone
+{
+    color: #ffffff;
+    background:#32b100cb;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}
+.ImgVerified
+{
+    width: 40px;
+}

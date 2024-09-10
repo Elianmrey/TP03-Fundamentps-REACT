@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+
+.Container
+{
+    display:flex;
+    flex-direction:column;
+    width: 600px;
+    height: fit-content;
+    background-color: #333;
+    padding:20px;
+    border-radius: 25px;
+    box-shadow: inset 0 0 20px,
+                         0 0 20px #00000080;
+    margin-bottom: 30px;
+}
+.Title
+{
+    font-size: 24px;
+    color: #488d03;
+    margin: 10px auto;
+}
+
+.Price
+{
+    color:#f37979;
+    font-size: xx-large;
+
+}
+.DescriptionContainer
+{
+    padding: 10px;
+    background-color: #444;
+    border-radius: 25px;
+}
+.Description
+{
+    font-size: x-large;
+    color:aliceblue
+}

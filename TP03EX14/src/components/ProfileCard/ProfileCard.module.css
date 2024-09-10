@@ -1,0 +1,159 @@
+*
+{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+user-select: none;
+}
+
+.cartaoPerfiL {
+  margin: 30px auto;
+}
+
+.cartao-perfiL
+{
+  user-select: none;
+  font-family: sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items:left;
+  margin:30px 30px;
+  border-radius: 10px;
+  box-shadow:  5px 5px 30px 1px #000000;
+  width: 600px;
+  height: 310px;
+}
+
+.container
+{
+  display:flex;
+  width: inherit;
+  height: 300px;
+}
+.cartaoPerfilSuperiorLateralEsq
+{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  height: 300px;
+  background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);
+  border: none;
+  border-top-left-radius: 10px;
+  padding-top: 10px;
+  position: relative;
+  margin: auto;
+  align-items:center;
+  justify-content: center;
+}
+.photoContainer
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items:center;
+}
+.fotoPerfil
+{
+  width: 120px;
+}
+.userName
+{
+  font-size: 1em;
+  font-family: Verdana, sans-serif;
+  user-select: none;
+  color: antiquewhite;
+}
+.cabecalho
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  color: whitesmoke;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.perfilInformacoes
+{
+  display: flex;
+}
+
+
+.cartaoPerfilSuperiorLateralDir
+{
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: 300px;
+  background-color: #270374;
+  border: none;
+  border-top-right-radius: 10px;
+  font-family: inherit;
+  border-top: #5030e0 3px solid;
+  border-right: #5030e0 3px solid;
+ }
+.cartaoPerfilSuperiorLateralDirIcones
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40px;
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 10px;
+  align-items:center;
+
+}
+.Icons
+{
+  width: 25px;
+  fill: antiquewhite;
+}
+
+.dataTextContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:flex-start;
+  width: 300px;
+  height: 250px;
+
+}
+
+.dataTextSpecial
+{
+  margin-top: -10px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+.dataText
+{
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+.faixaInferior
+{
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  height: 60px;
+  background-color: #0453ad;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  }
+.iconsBottomPosition
+{
+  width: 30px;
+  align-self: center;
+  fill: whitesmoke;
+}
